@@ -4,8 +4,8 @@
 - Project description (Joe)
 
 # Project Links 
--frontend git 
--[backend git]()
+- frontend git 
+- [backend git]()
 
 # Wireframs/Architecture
 - WireFrame
@@ -44,7 +44,7 @@
 # MVP / POSTMVP 
 - MVP specifications (Group) 
 
-##Components description
+## Components description
 - Header
   - Shared component that sits at the top of the page and contains site title/tagline/logo
 - Nav
