@@ -15,6 +15,16 @@
 - Time Chart (Alex, Katy)
   - Backend
   - Frontend
+  
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Create Model | E | 1hr| n/a | n/a |
+| Create Controller | M | 1 hour| n/a | n/a |
+| Setup Server | E | .5hr| n/a | n/a |
+| Set up Conections  | E | .5hrs| n/a | n/a |
+| create Seed File  | M | 1hrs| n/a | n/a |
+| Research  | E | 2hrs| n/a | n/a |
+| Total | H | 6hrs| n/a| n/a|
 
 # MVP / POSTMVP 
 - MVP specifications (Group) 
