@@ -64,6 +64,8 @@
 # Backend Description
 - models/Schemas. (Alex, Joe)
 
+- The Milkshakes Schema will contain keys with the value of flavor, toppings, size and price. The flavors, toppings and size values will be set to String and the value of price will be set to Number.
+
 # Additional libraries
 - Libraries used for project
 
