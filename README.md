@@ -19,17 +19,17 @@
 # MVP / POSTMVP 
 - MVP specifications (Group) 
 
-# Components description
+##Components description
 - Header
   - Shared component that sits at the top of the page and contains site title/tagline/logo
 - Nav
-  - Shared component right below Header, contains links to the components Home, New Order, annd Past Order
+  Shared component right below Header, contains links to the components Home, New Order, annd Past - - - Order
 - Home
   - Simple landing page with graphic/tagline/eetc.
 - New Order
-  - Page with form that allows you to fill out your order. Options for names, toppings, cone, bowl,etc.
+   - Page with form that allows you to fill out your order. Options for names, toppings, cone, bowl,etc.
 - Past Orders
-  - The past orders will all be stored in the backend. This page will render a list of past orders with name and date. Clicking on an order will take you to an Order page.
+   - The past orders will all be stored in the backend. This page will render a list of past orders with name and date. Clicking on an order will take you to an Order page.
 - Order
   - Page that contains all the details of a specifiv past order.
 - Footer
