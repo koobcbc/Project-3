@@ -9,7 +9,7 @@
 
 ## Wireframes
 
-- [Wireframes](https://www.figma.com/file/3PGHU4ez2A2nW7BCGAuUYr/icecream-app?node-id=12%3A4)
+- [Wireframes]()
 - [React Architecture](https://www.figma.com/file/xaMLzFv4FNGUxbAU4Az9cV/React-Architecture?node-id=0%3A1)
 
 
@@ -35,6 +35,7 @@
 
 # MVP / POSTMVP 
 - MVP specifications (Group) 
+
 
 # Components description
 - React Specific components (David)
