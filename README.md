@@ -31,6 +31,7 @@
 | Basic Styling for main | H | 2hrs| 2.5hrs | 2.5hrs |
 | Additional Styling for the page | M | 4hrs| 3hrs | 3hrs |
 | Total | H | 24hrs| 28.5hrs| 28.5hrs|
+-
 
 # MVP / POSTMVP 
 - MVP specifications (Group) 
