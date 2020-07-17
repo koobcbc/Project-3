@@ -7,7 +7,7 @@
 - frontend git 
 - [backend git]()
 
-# Wireframs/Architecture
+# Wireframes/Architecture
 - [WireFrame](https://www.figma.com/file/3PGHU4ez2A2nW7BCGAuUYr/icecream-app?node-id=12%3A4)
 - [React Architecture](https://imgur.com/vyTQGPH)
 
@@ -39,7 +39,18 @@
 | Total | H | 26.5hrs| -| -|
 
 # MVP / POSTMVP 
-- MVP specifications (Group) 
+
+#### MVP
+- Create mongoDB using mongoose
+- Use the api created by mongoDB
+- Create components
+- Create Functionality for reading, adding, deleting, and updating
+- Allow user to input their selections for order
+- Allow user to navigate to past orders and search by their name
+
+#### PostMVP
+
+- Additional Styling and animations
 
 ## Components description
 - Header
