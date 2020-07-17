@@ -20,8 +20,14 @@
 - MVP specifications (Group) 
 
 # Components description
-- React Specific components (David)
-- test
+- Header
+- Nav
+- Home
+- New Order
+- Past Orders
+- Order
+- Footer
+
 
 # Backend Description
 - models/Schemas. (Alex, Joe)
