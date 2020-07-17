@@ -8,13 +8,10 @@
 - [backend git]()
 
 # Wireframs/Architecture
-- WireFrame
+- [WireFrame](https://www.figma.com/file/3PGHU4ez2A2nW7BCGAuUYr/icecream-app?node-id=12%3A4)
 - [React Architecture](https://imgur.com/vyTQGPH)
 
 # Time Priority Matrix/Chart
-- Time Chart (Alex, Katy)
-  - Backend
-  - Frontend
   
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
