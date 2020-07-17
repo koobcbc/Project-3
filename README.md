@@ -54,6 +54,8 @@
    - The past orders will all be stored in the backend. This page will render a list of past orders with name and date. Clicking on an order will take you to an Order page.
 - Order
   - Page that contains all the details of a specifiv past order.
+- About
+  - This will be the "Team Page" with photos and descriptions of everyone that worked on the project
 - Footer
   - Shared component with copyright info etc.
 
