@@ -40,8 +40,11 @@
 | Additional Styling (effects) for the page | M | 2hrs| - | - |
 | Total | H | 26.5hrs| -| -|
 
-# MVP / POSTMVP 
+# MVP 
 - MVP specifications (Group) 
+
+# PostMVP
+- PostMVP specifications
 
 ## Components description
 - Header
