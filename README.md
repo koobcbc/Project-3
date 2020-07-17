@@ -43,4 +43,8 @@
 # Code Snippet 
 - project code 
 
-
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
