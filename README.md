@@ -21,6 +21,7 @@
 
 # Components description
 - React Specific components (David)
+- test
 
 # Backend Description
 - models/Schemas. (Alex, Joe)
