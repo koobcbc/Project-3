@@ -1,11 +1,16 @@
 # Project-3
 
 # Description
-- Due to covid, many ice cream parlors are not allowing customers in their store. However we have created an online app where customers can place an order for pickup allowing them to enjoy a delicious treat of their choice. We can bring your your morning, mid-day or late night cravings to life. If you have already placed an order you can check your past order by looking for your name and your order will be displayed.
+
+- Due to covid, many ice cream parlors are not allowing customers in their store. However we have created an online app where customers can place an order for pickup allowing them to enjoy a delicious treat of their choice. We can bring your your morning, mid-day or late night cravings to life. If you have already placed an order you can check your past order by looking for your name and your order will be displayed.  
 
 # Project Links 
-- frontend git 
-- [backend git]()
+## Project URL
+- [iceCreamYum](http://icecreamyum.surge.sh/)
+
+## Git Repos
+- [frontend git](https://github.com/DavidSwanberg/frontend_project3) 
+- [backend git](https://github.com/JCova-5/ColdTreatsBackend)
 
 # Wireframes/Architecture
 - [WireFrame](https://www.figma.com/file/3PGHU4ez2A2nW7BCGAuUYr/icecream-app?node-id=12%3A4)
@@ -15,30 +20,28 @@
   
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create Model | E | 1hr| n/a | n/a |
-| Create Controller | M | 1 hour| n/a | n/a |
-| Setup Server | E | .5hr| n/a | n/a |
-| Set up Conections  | E | .5hr| n/a | n/a |
-| create Seed File  | M | 1hrs| n/a | n/a |
-| Research  | E | 2hrs| n/a | n/a |
-| Total | H | 6hrs| n/a| n/a|
+| Create Model | E | 1hr | 3hrs | 3hrs |
+| Create Controller | E | 2 hour | 4hrs | 4hrs |
+| Setup Server | E | .5hr| .5hrs | .5hrs |
+| Set up Conections  | E | .5hrs| .5hrs | .5hrs |
+| create Seed File  | M | 2hrs | 4hrs | 4hrs |
+| Research  | E | 2hrs| 4hrs | 4hrs |
+| Deployment  | H | 2hrs| 2hrs | 2hrs |
+| Total | H | 10hrs | 18hrs | 18hrs |
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create react app and components| H | .5hr| - | - |
-| Install packages and Set up React Routing | H | .5hr| - | - |
-| Make APIcall from App | H | .5hr| - | - |
-| Set up the layout components (Header, NavBar, Footer) | H | .5hr | - | - |
-| Home component | H | 1hr| - | - |
-| New order component | H | 2hr| - | - |
-| Functionality of order form | H | 5hr| - | - |
-| make delete / filter functionality in Past Order | H | 2.5hrs| - | - |
-| Basic Styling for nav, footer, about page | H | 2hrs| - | - |
-| Basic Styling for main | H | 10hrs| - | - |
-| Additional Styling (effects) for the page | M | 2hrs| - | - |
-| Total | H | 26.5hrs| -| -|
-
-# MVP / POSTMVP 
+| Create react app and components| H | .5hr| .5 hr | .5 hr |
+| Install packages and Set up React Routing | H | .5hr| .5 hr | .5hr |
+| Make APIcall from App | H | .5hr| .5hr | .5hr |
+| Set up the layout components (Header, NavBar, Footer) | H | .5hr | 1hr | 1hr |
+| Home component | H | 1hr| .5hr | .5hr |
+| New order component | H | 2hr| 2hr | 2hr |
+| Functionality of order form | H | 5hr| 6hr | 6hr |
+| make delete / filter functionality in Past Order | H | 2.5hrs| 6hr | 6hr |
+| Basic Styling for nav, footer, about page | H | 2hrs| 2hr | 2hr |
+| Basic Styling for main | H | 10hrs| 4hrs | 4hrs |
+| Total | H | 26.5hrs| 23hrs | 23hrs | 
 
 #### MVP
 - Create mongoDB using mongoose
@@ -46,17 +49,16 @@
 - Create components
 - Create Functionality for reading, adding, deleting, and updating
 - Allow user to input their selections for order
-- Allow user to navigate to past orders and search by their name
-
+- Allow user to navigate to past orders
 #### PostMVP
-
 - Additional Styling and animations
+- Allow users to search by their name
 
 ## Components description
 - Header
   - Shared component that sits at the top of the page and contains site title/tagline/logo
 - Nav
-  Shared component right below Header, contains links to the components Home, New Order, annd Past - - - Order
+  Shared component right below Header, contains links to the components Home, New Order, and Past-Orders
 - Home
   - Simple landing page with graphic/tagline/eetc.
 - New Order
@@ -70,11 +72,13 @@
 - Footer
   - Shared component with copyright info etc.
 
-
 # Backend Description
 - models/Schemas. (Alex, Joe)
 
 - The Milkshakes Schema will contain keys with the value of flavor, toppings, size and price. The flavors, toppings and size values will be set to String and the value of price will be set to Number.
+- The Ice Cream Schema will contain keys that hold values of flavor, toppings, size that will all be set to strings. In addition to those we will also throw in a price value set to a number.
+- The Menu schema will hold a list of our menu items. The schema will contain values of flavor, toppings, holder and size, so that the frontend can pull that info and set up a menu in the app where users can see what options they have to choose from.
+- We will create three seperate controllers. One will contain the Schema and model for the milkshakes, the other holds the Ice Cream Schema and model, and the menu will function with the menu schema and model.
 
 # Additional libraries
 - Axios
@@ -86,7 +90,25 @@
 - project code 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const handleSizeSelect = event =>{
+  if (event.target.value ==='small'){
+    setInput({
+      ...input,
+       size: 'small',
+       price: 5
+     });
+  }else if(event.target.value ==='medium'){
+    setInput({
+      ...input,
+       size: 'medium',
+       price: 6
+     });
+  }else{
+    setInput({
+      ...input,
+       size: 'large',
+       price: 7
+     });
+  }
 }
 ```
