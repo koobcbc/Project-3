@@ -13,7 +13,7 @@
 - [frontend git](https://github.com/DavidSwanberg/frontend_project3) 
 - [backend git](https://github.com/JCova-5/ColdTreatsBackend)
 
-# Wireframs/Architecture
+# Wireframes/Architecture
 - [WireFrame](https://www.figma.com/file/3PGHU4ez2A2nW7BCGAuUYr/icecream-app?node-id=12%3A4)
 - [React Architecture](https://imgur.com/vyTQGPH)
 
